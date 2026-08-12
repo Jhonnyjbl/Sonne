@@ -5,7 +5,7 @@
 
 const SISTEMA_NOME    = 'Sonne';
 const SISTEMA_VERSAO  = '3.5.1';
-const SPREADSHEET_ID  = '1tXNSWibVeIvk1ENjc3LlpmyCuRzHbft70TkdQvUbOV4';
+const SPREADSHEET_ID  = '#####';
 
 // Senha admin movida para PropertiesService por segurança
 function getSenhaAdmin() {

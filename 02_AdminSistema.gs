@@ -1320,17 +1320,3 @@ function executarDiagnostico() {
   return r;
 }
 
-/**
- * Função de teste rápido — execute no Apps Script para verificar emails.
- * Mostra o email de quem está executando.
- */
-function testarCapturadeEmail() {
-  Logger.log('=== TESTE DE CAPTURA DE EMAIL ===');
-  Logger.log('getActiveUser().getEmail():    ' + Session.getActiveUser().getEmail());
-  Logger.log('getEffectiveUser().getEmail(): ' + Session.getEffectiveUser().getEmail());
-  Logger.log('');
-  Logger.log('Se os dois forem iguais e for seu email, é porque VOCÊ está executando.');
-  Logger.log('Se getActiveUser() retornar vazio, o WebApp está configurado como anônimo.');
-  Logger.log('');
-  Logger.log('SOLUÇÃO: Redeply com "Qualquer pessoa com conta Google"');
-}

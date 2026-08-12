@@ -15,7 +15,7 @@ function getSenhaAdmin() {
   Logger.log('Senha do PropertiesService: ' + (senha ? '***' : 'null'));
   if (!senha) {
     // Primeira vez - define senha padrão e avisa para alterar
-    senha = '85935164';
+    senha = '######';
     props.setProperty('SENHA_ADMIN', senha);
     Logger.log('⚠️ ATENÇÃO: Senha admin padrão definida. Altere via definirSenhaAdmin()');
   }
